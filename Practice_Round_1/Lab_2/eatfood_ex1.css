@@ -1,0 +1,41 @@
+body{
+  border-color: green;
+  border-width: 3px;
+  border-style: solid;
+}
+
+p{
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.top{
+  border-color: red;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.bord2{
+  border-color: orange;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.date{
+  border-color: purple;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.jour{
+  border-color: blue;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.foot{
+  border-color: yellow;
+  border-width: 3px;
+  border-style: solid;
+}
