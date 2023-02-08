@@ -1,0 +1,47 @@
+body{
+  background-image: url(images/background.gif);
+}
+
+.all{
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+  font-family: cursive;
+  background-color: white;
+}
+
+.top{
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+  text-align: right;
+  background-color: rgb(168, 213, 255);
+}
+
+.journal{
+  border-width: 2px;
+  border-color: rgb(168, 213, 255);
+  border-style: solid;
+  background-color: rgb(196, 226, 255);
+  padding: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+/* Specifically targets the span element inside a h2 elements inside divs with class "journal" */
+div.journal > h2 > span{
+  border-bottom-width: 2px;
+  border-color: black;
+  border-bottom-style: dashed;
+}
+
+.bottom{
+  text-align: center;
+}
+
+img{
+  float: right;
+}

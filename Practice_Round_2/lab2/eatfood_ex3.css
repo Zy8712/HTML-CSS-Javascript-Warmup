@@ -1,0 +1,53 @@
+body{
+  background-image: url(images/background.gif);
+}
+
+.all{
+  border-width: 2px;
+  border-color: green;
+  border-style: solid;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+}
+
+.top{
+  border-width: 2px;
+  border-color: red;
+  border-style: solid;
+  text-align: right;
+}
+
+/* Specifically targets the h2 element inside a div with class "top" */
+div.top > h2{
+  border-width: 2px;
+  border-color: orange;
+  border-style: solid;
+}
+
+.journal{
+  border-width: 2px;
+  border-color: blue;
+  border-style: solid;
+  background-color: rgb(196, 226, 255);
+  padding: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+/* Specifically targets the span element inside a h2 elements inside divs with class "journal" */
+div.journal > h2 > span{
+  border-width: 2px;
+  border-color: purple;
+  border-style: solid;
+}
+
+.bottom{
+  border-width: 2px;
+  border-color: yellow;
+  border-style: solid;
+}
+
+img{
+  float: right;
+}

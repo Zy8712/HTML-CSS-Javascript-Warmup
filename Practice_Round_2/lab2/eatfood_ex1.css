@@ -1,0 +1,44 @@
+.all{
+  border-width: 2px;
+  border-color: green;
+  border-style: solid;
+}
+
+.top{
+  border-width: 2px;
+  border-color: red;
+  border-style: solid;
+}
+
+/* Specifically targets the h2 element inside a div with class "top" */
+div.top > h2{
+  border-width: 2px;
+  border-color: orange;
+  border-style: solid;
+}
+
+.journal{
+  border-width: 2px;
+  border-color: blue;
+  border-style: solid;
+}
+
+/* Specifically targets the span element inside a h2 elements inside divs with class "journal" */
+div.journal > h2 > span{
+  border-width: 2px;
+  border-color: purple;
+  border-style: solid;
+}
+
+/* Specifically targets p elements inside a divs with class "journal" */
+div > p{
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+}
+
+.bottom{
+  border-width: 2px;
+  border-color: yellow;
+  border-style: solid;
+}
