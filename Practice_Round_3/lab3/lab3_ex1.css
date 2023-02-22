@@ -1,0 +1,41 @@
+/* add your css code for lab3_ex1.css here */
+.login{
+  text-align: right;
+}
+
+p.login > a{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  font-family: monospace;
+  font-size: 10pt;
+  text-decoration: none;
+}
+
+.main{
+  width: 250px;
+  margin: auto;
+  margin-top: 20px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+p.logo{
+    text-align: center;
+}
+
+div p {
+  margin: 2px;
+}
+
+input[type="text"]{
+  width: 240px;
+}
+
+input[type="submit"]{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  width: 240px;
+}

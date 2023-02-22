@@ -1,0 +1,89 @@
+
+body{
+  background-image: url(background.png);
+}
+
+.content{
+  width: 400px;
+  margin: auto;
+  background-color: #EEEEEE;
+  border-color: #999999;
+  border-width: 5px;
+  border-style: solid;
+  padding: 5px;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+fieldset.firstSection p{
+  text-align: center;
+}
+
+fieldset.firstSection img{
+  height: 250px;
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+}
+
+label.whiteShirt > span{
+  background-color: white;
+  color: black;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+label.redShirt > span{
+  background-color: red;
+  color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+label.blueShirt > span{
+  background-color: blue;
+  color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+label.greenShirt > span{
+  background-color: green;
+  color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+p.cardNum > input[type="text"]{
+  width: 4em;
+  font-family: monospace;
+  text-align: right;
+}
+
+p.expDate > input[type="text"]{
+  width: 2em;
+  font-family: monospace;
+}
+
+.submit{
+  float: left;
+}
+
+input[type="submit"]{
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+.reset{
+  float: right;
+}
+
+input[type="reset"]{
+  font-family: monospace;
+  padding: 5px;
+}

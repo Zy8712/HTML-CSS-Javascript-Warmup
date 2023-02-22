@@ -1,0 +1,70 @@
+<!-- Lab3 Task 2 - EECS1012 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title> Nerd Shirt </title>
+  <link href="lab3_ex2.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+  <!-- See PDF for details -->
+  <div class="content">
+    <form action="https://www.eecs.yorku.ca/~mbrown/EECS1012/buyShirt.php" method="get">
+      <fieldset class="firstSection">
+        <legend>Select Shirt</legend>
+        <p>
+          <img src="tshirt.png" alt="shirt">
+        </p>
+        <p>
+          <label class="whiteShirt">
+            <input type="radio" name="color" value="white"> <span>White</span>
+          </label>
+          <label class="redShirt">
+            <input type="radio" name="color" value="red"> <span>Red</span>
+          </label>
+          <label class="blueShirt">
+            <input type="radio" name="color" value="blue"> <span>Blue</span>
+          </label>
+          <label class="greenShirt">
+            <input type="radio" name="color" value="green"> <span>Green</span>
+          </label>
+        </p>
+        <p>Size
+          <select name="size">
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>X-Large</option>
+          </select>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Payment</legend>
+        <p>
+          <label><input type="radio" name="cardType" value="vs"> Visa</label>
+          <label><input type="radio" name="cardType" value="mc"> MasterCard</label>
+          <label><input type="radio" name="cardType" value="ae"> American Express</label>
+        </p>
+        <hr>
+        <p class="cardNum">Card number
+          <input type="text" maxlength="4" name="cc1">-
+          <input type="text" maxlength="4" name="cc2">-
+          <input type="text" maxlength="4" name="cc3">-
+          <input type="text" maxlength="4" name="cc4">
+        </p>
+        <hr>
+        <p class="expDate"> Expiration: Month (MM)
+          <input type="text" name="month"> Year(YY)
+          <input type="text" name="year">
+        </p>
+      </fieldset>
+      <p class="submit"> Place Order
+        <input type="submit">
+      </p>
+      <p class="reset"> Reset fields
+        <input type="reset">
+      </p>
+    </form>
+  </div>
+</body>
+</html>
