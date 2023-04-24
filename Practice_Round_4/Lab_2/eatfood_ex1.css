@@ -1,0 +1,41 @@
+.content{
+  border-style: solid;
+  border-color: green;
+  border-width: 3px;
+}
+
+.top{
+  border-style: solid;
+  border-color: red;
+  border-width: 3px;
+}
+
+.top > h2{
+  border-style: solid;
+  border-color: orange;
+  border-width: 3px;
+}
+
+.journal{
+  border-style: solid;
+  border-color: blue;
+  border-width: 3px;
+}
+
+.journal > h2 > span{
+  border-style: solid;
+  border-color: purple;
+  border-width: 3px;
+}
+
+p{
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.bottom{
+  border-style: solid;
+  border-color: yellow;
+  border-width: 3px;
+}
