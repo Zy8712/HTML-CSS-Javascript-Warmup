@@ -1,0 +1,60 @@
+<!-- Lab3 Task 2 - EECS1012 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Nerd Shirt </title>
+  <link href="lab3_ex2.css" type="text/css" rel="stylesheet">
+  <meta charset="utf-8">
+</head>
+<body>
+  <!-- See PDF for details -->
+  <div class="main">
+    <form action="https://www.eecs.yorku.ca/~mbrown/EECS1012/buyShirt.php" method="get">
+      <fieldset class="fieldOne">
+        <legend>Select Shirt</legend>
+        <p><img src="./assets/tshirt.png" alt="shirt"></p>
+        <p>
+          <label><input type="radio" name="color" value="white"> <span class="wh">White</span></label>
+          <label><input type="radio" name="color" value="red"> <span class="rd">Red</span></label>
+          <label><input type="radio" name="color" value="blue"> <span class="bl">Blue</span></label>
+          <label><input type="radio" name="color" value="green"> <span class="gr">Green</span></label>
+        </p>
+        <p> Size:
+          <select name="size">
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>X-Large</option>
+          </select>
+        </p>
+      </fieldset>
+      <fieldset class="fieldTwo">
+        <legend>Payment</legend>
+        <p>
+          <label><input type="radio" name="CardType" value"vs">Visa</label>
+          <label><input type="radio" name="CardType" value"mc">MasterCard</label>
+          <label><input type="radio" name="CardType" value"ae">American Express</label>
+        </p>
+        <hr>
+        <p class="cardNum"> Card Number
+          <input type="text" maxlength="4" name="cc1">-
+          <input type="text" maxlength="4" name="cc2">-
+          <input type="text" maxlength="4" name="cc3">-
+          <input type="text" maxlength="4" name="cc4">
+        </p>
+        <hr>
+        <p class="cardExp"> Expiration: Month(MM)
+          <input type="text" name="month" maxlength="2"> Year(YY):
+          <input type="text" name="year" maxlength="2">
+        </p>
+      </fieldset>
+        <p class="sub"> Place Order
+          <input type="submit" value="Submit">
+        </p>
+        <p class="res"> Reset Fields
+          <input type="reset" value="Reset">
+        </p>
+    </form>
+  </div>
+</body>
+</html>

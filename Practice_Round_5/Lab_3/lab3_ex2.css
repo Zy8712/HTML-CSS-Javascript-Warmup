@@ -1,0 +1,81 @@
+/* add your CSS code for lab3_ex2.css here */
+body{
+  background-image: url("./assets/background.png");
+}
+
+.main{
+  width: 400px;
+  margin: auto;
+  background-color: #EEEEEE;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #999999;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.main > form > fieldset.fieldOne > p{
+  text-align: center;
+}
+
+.main > form > fieldset > p > img{
+  height: 250px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+}
+
+label > span{
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+.wh{
+  background-color: white;
+  color: black;
+}
+
+.rd{
+  background-color: red;
+  color: white;
+}
+
+.bl{
+  background-color: blue;
+  color: white;
+}
+
+.gr{
+  background-color: green;
+  color: white;
+}
+
+.cardNum > input[type="text"]{
+  width: 4em;
+  font-family: monospace;
+}
+
+.cardExp > input[type="text"]{
+  width: 2em;
+  font-family: monospace;
+}
+
+
+input[type="submit"]{
+  padding: 5px;
+  color: white;
+  background-color: black;
+}
+
+input[type="reset"]{
+  padding: 5px;
+}
+
+.sub{
+  float: left;
+}
+
+.res{
+  float: right;
+}

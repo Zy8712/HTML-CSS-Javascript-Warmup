@@ -1,0 +1,45 @@
+body{
+  background-image: url("./images/background.gif");
+  font-family: sans-serif;
+}
+
+.content{
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+}
+
+.top{
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  background-color: rgb(168, 213, 255);
+  text-align: right;
+}
+
+.journal{
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(168, 213, 255);
+  background-color: rgb(196, 226, 255);
+  padding: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.journal img{
+  float: right;
+}
+
+.journal > h2 > span{
+  border-bottom-style: dashed;
+  border-bottom-color: black;
+  border-bottom-width: 2px;
+}
+
+.bottom{
+  text-align: center;
+}
